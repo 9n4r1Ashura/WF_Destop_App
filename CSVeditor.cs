@@ -304,6 +304,11 @@ namespace Practice_Project2WFA
         {
             Console.WriteLine(Coloumn_Number.SelectedIndex);
         }
+
+        private void Coloumn_Appender_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Data will be appended to {Coloumn_Number.SelectedIndex + 1} Colomn of the file to all rows.");
+        }
         /*----------------------------------------------------------On Form Load End--------------------------------------------------------------------------------*/
 
     }

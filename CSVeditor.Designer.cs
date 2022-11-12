@@ -133,6 +133,7 @@
             this.Coloumn_Appender.TabIndex = 17;
             this.Coloumn_Appender.Text = "Append To Coloumn Data";
             this.Coloumn_Appender.UseVisualStyleBackColor = true;
+            this.Coloumn_Appender.Click += new System.EventHandler(this.Coloumn_Appender_Click);
             // 
             // Lock_Seperator
             // 
